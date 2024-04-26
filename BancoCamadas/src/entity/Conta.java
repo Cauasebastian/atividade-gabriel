@@ -31,6 +31,14 @@ public class Conta {
 	public void setTitular(String titular) {
 		this.titular = titular;
 	}
+	//contructor
+	public Conta(int numero, int agencia, double saldo, String titular) {
+		this.numero = numero;
+		this.agencia = agencia;
+		this.saldo = saldo;
+		this.titular = titular;
+	}
+
 	
 	public boolean equals(Object o) {
 		if (o != null) {
